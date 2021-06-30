@@ -1,0 +1,45 @@
+.fexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sizelink {
+    width: 30%;
+}
+.colorlink1 {
+    text-decoration: none;
+    color:#0065FC
+}
+.colorlink1:hover {
+    text-decoration:none;
+    color: #DEEBFF; 
+}
+.colorlink2 {
+    text-decoration: none;
+    color:black
+}
+.colorlink2:hover {
+    text-decoration: none;
+    color:#F2F2F2 ;
+}
+h3 {
+    font-size:15px
+}
+nav {
+    font-family: raleway;
+}
+em {
+    font-style:normal
+}
