@@ -34,7 +34,7 @@
     text-decoration: none;
     color:#F2F2F2 ;
 }
-nav {
+nav {                   /* police d'ecriture de tout le texte dans nav */
     font-family: raleway;
 }
 em {
