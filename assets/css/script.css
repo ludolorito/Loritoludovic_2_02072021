@@ -15,10 +15,10 @@
     justify-content: space-between;
     align-items: center;
 }
-.sizelink {
+.sizelink {         /* taille de l'espacement entre les liens */
     width: 30%;
 }
-.colorlink1 {
+.colorlink1 {       /* couleur des liens avant et apres clique */
     text-decoration: none;
     color:#0065FC
 }
@@ -33,9 +33,6 @@
 .colorlink2:hover {
     text-decoration: none;
     color:#F2F2F2 ;
-}
-h3 {
-    font-size:15px
 }
 nav {
     font-family: raleway;
