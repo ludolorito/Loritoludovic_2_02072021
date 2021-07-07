@@ -1,42 +1,171 @@
-.fexCentre {
+        /*police*/
+.body {
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.flex-Centre {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.flexAround {
+.flex-Arround {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
-.flexBetween {
+.flex-Between {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.sizelink {         /* taille de l'espacement entre les liens */
+.font {                /* police d'écriture */
+font-family: 'Raleway', sans-serif;
+}
+.size-link {         /* taille de l'espacement entre les liens */
     width: 30%;
 }
-.colorlink1 {       /* couleur des liens avant et apres clique */
+.color-singup {       /* couleur des liens avant et apres clique */
     text-decoration: none;
     color:#0065FC
 }
-.colorlink1:hover {
-    text-decoration:none;
-    color: #DEEBFF; 
-}
-.colorlink2 {
+.color-nav {
     text-decoration: none;
     color:black
 }
-.colorlink2:hover {
+.color-nav:hover {
     text-decoration: none;
-    color:#F2F2F2 ;
+    color:#0065FC ;
 }
-nav {                   /* police d'ecriture de tout le texte dans nav */
-    font-family: raleway;
+.recherchebarre {
+    margin-top: 10px;
+    margin-bottom: 30px;
+
 }
-em {
+.sous-titre {
     font-style:normal
+}
+ul {
+    list-style: none;
+}
+.filtre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    /*box gauche "Hebergement" */
+}
+.left-box {
+    display: inline-block;
+    padding-left: 20px;
+    background-color: rgb(211, 211, 211);
+    width: 800px;
+    height: 540px;
+    border-radius: 10px;
+    
+}
+.left-box-content {
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    background: rgb(138, 75, 75); 
+}
+    /*box doite "les plus populaire"*/
+.right-box {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    background-color: rgb(211, 211, 211);
+    width: 380px;
+    height: 540px;
+    padding-left: 80px;
+    border-radius: 10px;
+}
+.right-box-content {
+    display: inline-block;
+    margin: 10px ;
+    width: 280px;
+    height: 120px;
+    background: rgb(138, 75, 75);
+    border-radius: 10px;
+}
+    /*box bas " activités à marseille "*/
+.bottom-box {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 1305px;
+    height: 540px;
+    border-radius: 10px;
+
+}
+.bottom-box-content{
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    background: rgb(97, 185, 144); 
+
+}
+.bottom-box-content:nth-child(n) {
+    display: flex;
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 250px;
+    padding: 20px;
+    background: rgb(88, 15, 15); 
+}
+.bottom-box-content:nth-child(2n) {
+   display: flex;
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    background: rgb(36, 34, 34); 
+}
+.bottom-box-content:nth-child(3n) {
+   display: flex;
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    background: rgb(236, 188, 188); 
+}
+.bottom-box-content:nth-child(4n) {
+   
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    background: rgb(235, 128, 128); 
+}
+.bottom-box-content:nth-child(5n) {
+ 
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    background: rgb(75, 65, 65); 
+}
+.bottom-box-content:nth-child(6n) {
+
+    border-radius: 10px;
+    margin: 10px ;
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    background: rgb(206, 107, 107); 
 }
