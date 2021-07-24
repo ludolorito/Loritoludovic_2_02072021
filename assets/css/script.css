@@ -60,22 +60,26 @@ header {
     display: flex;
 }
 
-nav a {
+nav li {
+    display: inline;
     font-size: 0.9em;
     color: black;
     padding-top: 3px;
     text-decoration: none;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
     color: black;
     font-style: normal;
+    
 }
 
 a:hover {
     text-decoration: #0065FC;
     color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 header nav a {
@@ -85,16 +89,20 @@ header nav a {
 header nav {
     display: flex;
     align-items: center;
+
 }
 
-.hebergements-activites a:hover {
-    border-top: 3px solid #0065FC;
+.hebergements-activites li:hover {
+    border-top: 3px solid #0065FC
 }
 
 .headersignup {
     color: #0065FC;
     font-weight: bold;
     margin-right: 10px;
+    }
+.headersignup :hover {
+    border-top: 3px solid #0065FC;
 }
 
 /*Titre principal*/
@@ -119,9 +127,10 @@ header nav {
 
 .gps-logo {
     position: relative;
-    height: 40px;
+    padding-left: 10px;
+    height: 39px;
     background-color: #F2F2F2;
-    width: 54px;
+    width: 50px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
@@ -253,7 +262,6 @@ h3 {
 
 .titre_hebergements_a_marseille {
     margin: 0px;
-    ;
     font-size: large;
     margin-bottom: 21px;
 }
